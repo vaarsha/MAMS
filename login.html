@@ -13,9 +13,20 @@
    <form>
 	<div class = "user"> 
    	 <input placeholder="Username" type="text" id="name"> <br/>
-   	 <input type="password" id="password" placeholder="Password">
+   	 <input type="password" id="psw" placeholder="Password">
 	</div>
-	 <button>Sign In</button>
+	 <button onclick="check(this.form)">Sign In</button>
  </div>
+ <script language="javascript">
+    function check(form){
+	if(form.name.value == "controller" && form.psw.value ==	"command"){
+	   // window.open('target.html')
+		alert("authenticated");
+    }
+	else {
+		alert("Access Denied");
+	}
+    }
+ </script>
 </body>
 </html>
