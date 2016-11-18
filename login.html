@@ -2,19 +2,20 @@
 <html>
 <head>
     <meta charset ="UTF-8">
+    <link
+    href="https://fonts.googleapis.com/css?family=Proza+Libre|Rubik" rel="stylesheet"> 
+    <link rel="stylesheet" href="login.css">
 	<title>Login page</title>
 </head>
 <body>
- <h3>Enter Login details</h3>
+ <div class = "align">
+ <h3>Login</h3>
    <form>
-   	 <label>User Name</label>
-   	 <input placeholder="User" type="text" id="name">  <br>
-   	 <label>password</label>
-   	 <input type="password" id="password" size="">
-   	 <br>
-   	 <label>Email</label>
-   	 <input type ="email" id="email">
-   	 <br>
-   	 <input type ="submit" value="Login">
+	<div class = "user"> 
+   	 <input placeholder="Username" type="text" id="name"> <br/>
+   	 <input type="password" id="password" placeholder="Password">
+	</div>
+	 <button>Sign In</button>
+ </div>
 </body>
 </html>
