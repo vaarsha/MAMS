@@ -1,13 +1,92 @@
 ul{
+ 	 	background-image:url("image1.jpg");
  	 	list-style-type: none;
- 	 	margin: 0;
- 	 	padding: 0;
+ 	 	margin: 40px;
+ 	 	margin-bottom: 0px;
+ 	 	padding: 30px;
  	 	overflow: hidden;
  	 	background-color: #333;
+ 	 	background-repeat: no-repeat;
+ 	 	background-size: cover;
+ 	 	background-position: b;
  	 }
+
+	
+	
 li{
- 	 	float: left;
+ 	 	float: right;
+ 	 
+ 		
  	 }
+
+ 	#abt{
+ 		/*background-image: url("image1.jpg");*/
+ 		background-image:url("flight1.jpg");
+ 		padding:200px;
+ 		background-position: center;
+ 		margin:40px;
+ 		margin-top:0px;
+ 	
+ 		background-repeat: no-repeat; 
+ 		background-color: rgb(38, 59, 70);
+
+ 		background-size: cover;
+
+ 		margin-bottom: 0px;
+ 	} 
+ 	#info 
+ 	{   background-image:url("flight2.jpg");
+ 		padding:180px;
+ 		background-position: center;
+ 		margin:40px;
+ 		margin-top:0px;
+ 		margin-bottom: 0px;
+ 		background-repeat: no-repeat; 
+ 		background-color: rgb(40, 69, 70);
+
+ 	}
+ 	#sch
+ 	{
+ 		padding:180px;
+ 		background-position: center;
+ 		margin:40px;
+ 		margin-top:0px;
+ 		margin-bottom: 0px;
+ 		background-repeat: no-repeat; 
+ 		background-image:url("flight1.jpg");
+
+ 		background-size:cover;
+ 	    
+ 	    }
+
+ 	 #sch1
+ 	 { 
+            
+ 	 	padding:180px;
+ 		background-position: center;
+ 		margin:40px;
+ 		margin-top:0px;
+ 		margin-bottom: 0px;
+ 		background-repeat: no-repeat; 
+ 		background-size:cover;
+ 	    
+
+ 	 }
+ 	 #info1
+ 	 {
+ 	 	background-image: url("airbase.jpg");
+ 	 	background-size:cover;
+ 	 	background-position: center;
+ 	 	padding:180px;
+ 		background-position: center;
+ 		margin:40px;
+ 		margin-top:0px;
+ 		margin-bottom: 0px;
+ 		background-repeat: no-repeat; 
+ 		background-size:cover;
+ 	 }
+
+
 li a {
  	 	display: block;
  	 	color: white;
@@ -18,14 +97,24 @@ li a {
 li a:hover {
  	 	background-color: #111;
  	 }
- 	 #main{
- 	 	height: 500px;
- 	 }
+ 	 
  	 .rsize{
  	 	max-width: 100%;
  	 	max-height: 100%;
  	 	vertical-align: middle;
  	 }
  body{
- 	background-color:  #d6ae7b;
+ 	background-color: rgba(81, 74, 82, 0.34);
+ }
+  h2{
+  	font-size:300%;
+    }
+ h3{  color: #231d45;
+font-size: 300%;
+ }
+ h1{
+ 	color: #131A3E;
+ 	text-align: center;
+ 	/*! text-shadow: rgba(34, 33, 0, 23); */
+ 	font-size: 500%;
  }
